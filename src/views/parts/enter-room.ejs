@@ -1,0 +1,25 @@
+<section>
+  <h2>Entre como participante</h2>
+  <form action="/enterroom" method="POST">
+    <label for="room-id" class="sr-only">Código da sala</label>
+    <!--sr-only é para depois em CSS deixar esse label invisivel, porem os motores de busca do google continuar identificando.-->
+    <input name="roomId" type="number" id="room-id" placeholder="Código da Sala">
+    <button>
+      <img src="images/enter-room.svg" alt="Entrar na sala">
+      Entrar na sala
+    </button>
+  </form>
+</section>
+
+<div class="separator">
+  <div></div>
+  <div>ou</div>
+  <div></div>
+</div>
+
+<section>
+  <h2>Crie sua própria sala de forma fácil</h2>
+  <a href="/create-pass" class="button outlined">
+    <img src="images/users.svg" alt="Criar Sala"> Criar Sala
+  </a>
+</section>
